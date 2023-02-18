@@ -29,7 +29,7 @@ N = 18  # 计算最新斜率 slope，拟合度 r2 参考最近 N 天
 M = 600  # 计算最新标准分 zscore，rsrs_score 参考最近 M 天
 score_threshold = 0.5  # rsrs 标准分指标阈值 （默认值为0.7）
 # ma 择时参数
-mean_day = 40  # 计算结束 ma 收盘价，参考最近 mean_day （默认值为20）
+mean_day = 36  # 计算结束 ma 收盘价，参考最近 mean_day （默认值为20）
 mean_diff_day = 3  # 计算初始 ma 收盘价，参考(mean_day + mean_diff_day)天前，窗口为 mean_diff_day 的一段时间
 
 day = 1
